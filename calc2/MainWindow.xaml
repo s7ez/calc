@@ -11,36 +11,36 @@
     </Window.DataContext>
     <Grid>
         <Label Content="{Binding TestText}" Margin="32,142,620,217"/>
-        <Button Content="TestButton" Margin="21,34,609,318" Command="{Binding ChangeTestTextButton, UpdateSourceTrigger=PropertyChanged}"/>
-        <!--<Button Content="TestButton" Margin="21,34,609,318" Command="{Binding ChangeTestTextButton}"/>-->
+        <!--<Button Content="TestButton" Margin="21,34,609,318" Command="{Binding ChangeTestTextButton, UpdateSourceTrigger=PropertyChanged}"/>-->
+        <Button Content="TestButton" Margin="21,34,609,318" Command="{Binding ChangeTestTextButton}"/>
 
         <Label FontSize="{Binding Config.FontSize}" Content="{Binding Calculator.Text}" HorizontalAlignment="Center" Margin="{Binding Config.CalcTextMargin}"/>
 
         <UniformGrid Columns="{Binding Config.Columns}" Width="{Binding Config.GridSize.X}" Height="{Binding Config.GridSize.Y}">
             <Button FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}"></Button>
             <Button Command="{Binding Calculator.ButtonClear}" FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}">CLR</Button>
-            <Button FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}">÷</Button>
+            <Button Command="{Binding Calculator.Div}" FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}">÷</Button>
             <Button FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}">←</Button>
 
             <Button FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}">7</Button>
             <Button FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}">8</Button>
             <Button FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}">9</Button>
-            <Button FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}">×</Button>
+            <Button Command="{Binding Calculator.Mul}" FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}">×</Button>
 
             <Button FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}">4</Button>
             <Button FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}">5</Button>
             <Button FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}">6</Button>
-            <Button FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}">-</Button>
+            <Button Command="{Binding Calculator.Sub}" FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}">-</Button>
 
             <Button Command="{Binding Calculator.Button1}" FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}">1</Button>
             <Button FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}">2</Button>
             <Button FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}">3</Button>
-            <Button FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}">+</Button>
+            <Button Command="{Binding Calculator.Sum}" FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}">+</Button>
 
             <Button FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}">+/-</Button>
             <Button FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}">0</Button>
             <Button FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}">.</Button>
-            <Button FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}">=</Button>
+            <Button Command="{Binding Calculator}" FontSize="{Binding Config.FontSize}" Width="{Binding Config.ButtonSize.X}" Height="{Binding Config.ButtonSize.Y}">=</Button>
         </UniformGrid>
     </Grid>
 </Window>
