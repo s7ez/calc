@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "D:\\.s7ez\\calc\\calc2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EDE2E123-D949-4707-9953-30D4B891A7D0}|calc2.csproj|d:\\.s7ez\\calc\\calc2\\notifypropertychanged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDE2E123-D949-4707-9953-30D4B891A7D0}|calc2.csproj|solutionrelative:notifypropertychanged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDE2E123-D949-4707-9953-30D4B891A7D0}|calc2.csproj|d:\\.s7ez\\calc\\calc2\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE2E123-D949-4707-9953-30D4B891A7D0}|calc2.csproj|solutionrelative:calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE2E123-D949-4707-9953-30D4B891A7D0}|calc2.csproj|D:\\.s7ez\\calc\\calc2\\delegatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE2E123-D949-4707-9953-30D4B891A7D0}|calc2.csproj|solutionrelative:delegatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EDE2E123-D949-4707-9953-30D4B891A7D0}|calc2.csproj|D:\\.s7ez\\calc\\calc2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EDE2E123-D949-4707-9953-30D4B891A7D0}|calc2.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EDE2E123-D949-4707-9953-30D4B891A7D0}|calc2.csproj|D:\\.s7ez\\calc\\calc2\\notifypropertychanged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE2E123-D949-4707-9953-30D4B891A7D0}|calc2.csproj|solutionrelative:notifypropertychanged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EDE2E123-D949-4707-9953-30D4B891A7D0}|calc2.csproj|D:\\.s7ez\\calc\\calc2\\mainvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDE2E123-D949-4707-9953-30D4B891A7D0}|calc2.csproj|solutionrelative:mainvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDE2E123-D949-4707-9953-30D4B891A7D0}|calc2.csproj|d:\\.s7ez\\calc\\calc2\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDE2E123-D949-4707-9953-30D4B891A7D0}|calc2.csproj|solutionrelative:calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EDE2E123-D949-4707-9953-30D4B891A7D0}|calc2.csproj|D:\\.s7ez\\calc\\calc2\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDE2E123-D949-4707-9953-30D4B891A7D0}|calc2.csproj|solutionrelative:config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDE2E123-D949-4707-9953-30D4B891A7D0}|calc2.csproj|D:\\.s7ez\\calc\\calc2\\delegatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDE2E123-D949-4707-9953-30D4B891A7D0}|calc2.csproj|solutionrelative:delegatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,33 +42,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "NotifyPropertyChanged.cs",
               "DocumentMoniker": "D:\\.s7ez\\calc\\calc2\\NotifyPropertyChanged.cs",
               "RelativeDocumentMoniker": "NotifyPropertyChanged.cs",
               "ToolTip": "D:\\.s7ez\\calc\\calc2\\NotifyPropertyChanged.cs",
               "RelativeToolTip": "NotifyPropertyChanged.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T04:24:09.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T04:24:09.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Calculator.cs",
               "DocumentMoniker": "D:\\.s7ez\\calc\\calc2\\Calculator.cs",
               "RelativeDocumentMoniker": "Calculator.cs",
               "ToolTip": "D:\\.s7ez\\calc\\calc2\\Calculator.cs",
               "RelativeToolTip": "Calculator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAdAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADEAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T08:45:08.24Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Config.cs",
               "DocumentMoniker": "D:\\.s7ez\\calc\\calc2\\Config.cs",
               "RelativeDocumentMoniker": "Config.cs",
@@ -76,25 +75,24 @@
               "RelativeToolTip": "Config.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T08:44:29.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T08:44:29.876Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "DelegateCommand.cs",
               "DocumentMoniker": "D:\\.s7ez\\calc\\calc2\\DelegateCommand.cs",
               "RelativeDocumentMoniker": "DelegateCommand.cs",
               "ToolTip": "D:\\.s7ez\\calc\\calc2\\DelegateCommand.cs",
               "RelativeToolTip": "DelegateCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T08:38:25.563Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\.s7ez\\calc\\calc2\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -106,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainVM.cs",
               "DocumentMoniker": "D:\\.s7ez\\calc\\calc2\\MainVM.cs",
               "RelativeDocumentMoniker": "MainVM.cs",
@@ -114,8 +112,7 @@
               "RelativeToolTip": "MainVM.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAcwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T08:32:42.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T08:32:42.319Z"
             }
           ]
         }
