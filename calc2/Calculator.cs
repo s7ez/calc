@@ -17,11 +17,11 @@ namespace calc2 {
         bool isSelectedN1 = true;
 
         public ICommand Backspace => new DelegateCommand(() => {
-            int idx = isSelectedN1 ? 1 : 0,
-                len = nstrs[idx].Length;
+            int idx = isSelectedN1 ? 0 : 1;
+            int len = nstrs[idx].Length;
             List<char> preList = [.. nstrs[idx]];
-            preList.RemoveAt(len);
-            nstrs[idx] = preList.ToString();
+            preList.RemoveAt(len - 1);
+            nstrs[idx] = string.Join(null, preList);
         });
 
         public ICommand ButtonClear => new DelegateCommand(() => Text = "");
@@ -32,16 +32,15 @@ namespace calc2 {
             Text = string.Join(Sign, nstrs);
         });
 
-        public ICommand DoCalculate => new DelegateCommand(() => {
-            double value0 = double.Parse(nstrs[0]), value1 = double.Parse(nstrs[1]);
-            double dst = Sign switch {
-                '+' => value0 + value1,
-                '-' => value0 - value1,
-                '×' or '*' => value0 * value1,
-                '÷' or '/' => value0 / value1,
+        public ICommand Calculate => new DelegateCommand(() => {
+            double[] values = [double.Parse(nstrs[0]), double.Parse(nstrs[^1])];
+            Text = (Sign switch {
+                '+' => values.First() + values.Last(),
+                '-' => values.First() - values.Last(),
+                '×' or '*' => values.First() * values.Last(),
+                '÷' or '/' => values.First() / values.Last(),
                 _ => throw new Exception()
-            };
-            Text = dst.ToString();
+            }).ToString();
             OnPropertyChanged(this);
         });
 

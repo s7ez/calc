@@ -11,8 +11,8 @@
     </Window.DataContext>
     <Grid>
         <Label Content="{Binding TestText}" Margin="32,142,620,217"/>
-        <!--<Button Content="TestButton" Margin="21,34,609,318" Command="{Binding ChangeTestTextButton, UpdateSourceTrigger=PropertyChanged}"/>-->
-        <Button Content="TestButton" Margin="21,34,609,318" Command="{Binding ChangeTestTextButton}"/>
+        <Button Content="TestButton" Margin="21,34,609,318" Command="{Binding ChangeTestTextButton, UpdateSourceTrigger=PropertyChanged}"/>
+        <!--<Button Content="TestButton" Margin="21,34,609,318" Command="{Binding ChangeTestTextButton}"/>-->
 
         <Label FontSize="{Binding Config.FontSize}" Content="{Binding Calculator.Text}" HorizontalAlignment="Center" Margin="{Binding Config.CalcTextMargin}"/>
 

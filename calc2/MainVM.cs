@@ -21,7 +21,6 @@ namespace calc2 {
         public ICommand ChangeTestTextButton => new DelegateCommand(() => {
             TestText += "Test";
             OnPropertyChanged(this);
-            Console.WriteLine("Click!");
         });
     }
 }
